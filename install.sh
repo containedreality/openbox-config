@@ -4,7 +4,7 @@ if ! [ -f ~/wallpaper.png ]; then
 fi
 
 if [ "$1" = "programs" ]; then
-	sudo pacman -S ttf-ubuntu-font-family openbox sxhkd feh picom ttf-hack kitty rofi pcmanfm leafpad lxpanel lxappearance lxappearance-obconf obconf flameshot mate-themes
+	sudo pacman -S ttf-ubuntu-font-family openbox sxhkd feh picom ttf-hack kitty rofi pcmanfm leafpad lxpanel lxappearance lxappearance-obconf obconf flameshot mate-themes slock
 fi
 
 mkdir -p ~/.config/openbox
