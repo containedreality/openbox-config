@@ -1,6 +1,6 @@
 #!/bin/sh
 if ! [ -f ~/wallpaper.png ]; then
-	curl https://img3.gelbooru.com/images/3a/f5/3af5d5c6058ccbfdd8759084c596ab37.png -o ~/wallpaper.png
+	curl https://safebooru.org//images/4075/c31d1992d3c021350792140ec3f94726466a0412.jpg -o ~/wallpaper.jpg
 fi
 
 if [ "$1" = "programs" ]; then

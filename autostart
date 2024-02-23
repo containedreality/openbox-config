@@ -2,5 +2,5 @@
 xrandr --output DP-5 --mode 1920x1080 --primary --output DP-2 --mode 1920x1080 --rotation left --left-of DP-5 --output HDMI-0 --mode 1920x1080 --right-of DP-5
 sxhkd &
 lxpanel &
-feh --bg-scale ~/wallpaper.png &
+feh --bg-scale ~/wallpaper.jpg &
 picom &
