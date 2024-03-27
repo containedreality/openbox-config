@@ -4,7 +4,7 @@ if ! [ -f ~/wallpaper.png ]; then
 fi
 
 if [ "$1" = "programs" ]; then
-	sudo apt install fonts-ubuntu x11-xserver-utils openbox sxhkd feh picom fonts-hack kitty rofi nemo notepadqq lxpanel lxappearance lxappearance-obconf obconf-qt flameshot breeze-gtk-theme slock
+	sudo apt install fonts-ubuntu x11-xserver-utils openbox sxhkd feh picom fonts-hack kitty rofi nemo notepadqq lxpanel lxappearance lxappearance-obconf obconf-qt flameshot breeze-gtk-theme slock webext-ublock-origin-chromium chromium keepassxc
 fi
 
 mkdir -p ~/.config/openbox
