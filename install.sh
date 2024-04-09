@@ -4,6 +4,7 @@ if ! [ -f ~/wallpaper.png ]; then
 fi
 
 if [ "$1" = "programs" ]; then
+        sudo pacman -S ttf-ubuntu-font-family xorg-xrandr openbox sxhkd feh picom ttf-hack kitty rofi pcmanfm lxpanel lxappearance lxappearance-obconf obconf flameshot breeze-gtk slock ublock-origin chromium keepassxc notepadqq
 	sudo apt install fonts-ubuntu x11-xserver-utils openbox sxhkd feh picom fonts-hack kitty rofi nemo notepadqq lxpanel lxappearance lxappearance-obconf obconf-qt flameshot breeze-gtk-theme slock webext-ublock-origin-chromium chromium keepassxc
 fi
 
